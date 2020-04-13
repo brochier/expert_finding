@@ -1,0 +1,2 @@
+recursive-include expert_finding/resources *
+include README.rst
