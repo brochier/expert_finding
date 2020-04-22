@@ -1,4 +1,4 @@
-## **expert_finding**: Python package for BIR@ECIR2020.
+## Python package for the paper [ New datasets and a benchmark of document network embedding methods for scientific expert finding](https://arxiv.org/pdf/2004.03621.pdf) (BIR20@ECIR20)
 
 ### Install:
 
@@ -93,6 +93,16 @@ merged_eval = expert_finding.evaluation.merge_evaluations(eval_batches, tags)
 expert_finding.evaluation.plot_evaluation(merged_eval, path=None)
 ```
     
+### Citing
+
+If you use this code, please consider citing the paper:
+
+	@inproceedings{brochier20new,
+		title={New Datasets and a Benchmark of Document Network Embedding Methods for Scientific Expert Finding},
+		author={Brochier, Robin and Gourru, Antoine and Guille, Adrien and Velcin, Julien},
+		booktitle={Bibliometric-enhanced Information Retrieval: 10th International BIR Workshop at ECIR},
+		year={2020}
+	}
 
  
  
