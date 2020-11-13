@@ -22,6 +22,6 @@ setup(name='expert_finding',
           'matplotlib',
           'unidecode',
           'scikit-learn',
-          'tensorflow>=1,<2'
+          'tensorflow>=1,<3'
       ],
       zip_safe=False)
